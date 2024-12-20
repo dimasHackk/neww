@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <title>Home</title>
+    <!-- import file eksternal.css -->
+    <link rel="stylesheet" type="text/css" href="eksternal.css" />
+    <!-- tag meta untuk responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- buat favicon -->
+    <link rel="icon" type="image/png" sizes="70x70" href="ext/head.png" />
+
+
+</head>
+
+<body>
+
+    <!-- buat area header -->
+    <div class="header"></div>
+    <!-- buat area menu -->
+    <div class="navigation">
+        <button class="tombol" onclick="home()">Home</button>
+        <button class="tombol" onclick="profil()">Profil</button>
+        <button class="tombol" onclick="Pendidikan()">Pendidikan</button>
+        <button class="tombol" onclick="Keahlian()">Keahlian</button>
+    </div>
+    <!-- buat area content -->
+    <div class="content">
+        <!-- area content (side) -->
+        <div class="side">
+
+            <!-- area logo -->
+            <div class="logo">
+                <img src="ext/hder.jpg" alt="java" width="120px" height="150px">
+            </div>
+            <!-- area text -->
+            <div class="text">
+                <br> Halo, saya Dimas Aprianto!
+                <br>Selamat datang di situs pribadi saya.
+            </div>
+            <!-- area garis -->
+            <div class="garis"></div>
+
+            <!-- area logo -->
+            <div class="logo">
+                <img src="ext/Dimas2.jpg" alt="java" width="120px" height="130px">
+            </div>
+            <!-- area text -->
+            <div class="text">
+                Saya seorang mahasiswa semester 3, web designer, dan calon programmer profesional. Saya tinggal di
+                Negeri Sakti, Pesawaran, dan memiliki passion besar di bidang teknologi.
+            </div>
+            <!-- area garis -->
+            <div class="garis"></div>
+
+
+
+        </div>
+        <!-- area content (main) -->
+        <div class="main">
+            <h2>Selamat Datang</h2>
+            <p>
+                Saya adalah seorang mahasiswa semester 3 yang juga bekerja sebagai web designer. Ia tinggal di
+                Negeri Sakti, Pesawaran, sebuah daerah yang memberinya inspirasi untuk terus berkembang.
+                <br>
+                Saya memiliki minat besar dalam dunia teknologi, khususnya di bidang pemrograman dan desain web. Dengan
+                tujuan menjadi seorang programmer profesional, ia terus belajar dan mengasah keterampilannya di dunia
+                coding.
+                <br>
+                Selain kesibukannya dalam studi dan pekerjaan, Dimas juga aktif menjalani hobi seperti running dan
+                berenang.
+                Keduanya membantu menjaga keseimbangan antara produktivitas dan kesehatan, sekaligus memberikan energi
+                untuk
+                terus berkarya. Dengan semangat belajar dan inovasi, Dimas bercita-cita memberikan kontribusi positif
+                dalam
+                industri teknologi sekaligus menginspirasi generasi muda di sekitarnya.
+            </p>
+        </div>
+    </div>
+    <!-- buat area footer -->
+    <div class="footer">
+        Footer (Copyright &copy; 2020)
+    </div>
+
+    <!-- fungsi js -->
+    <script>
+        // fungsi untuk tombol home
+        function home() {
+            //alihkan ke halaman home
+            location.href = "home.html";
+        }
+        // fungsi ke halaman profil
+        function profil() {
+            // window.open("profil.html");
+            location.href = "profil.html";
+        }
+        // fungsi ke halaman profil
+        function Pendidikan() {
+            // window.open("profil.html");
+            location.href = "pendidikan.html";
+        }
+        // fungsi ke halaman profil
+        function Keahlian() {
+            // window.open("profil.html");
+            location.href = "pengalaman.html";
+        }
+    </script>
+</body>
+
+</html>
